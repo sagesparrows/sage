@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sage Sparrows | Home</title>
+    <link rel="icon" href="./media/favicon.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
+    <link rel="stylesheet" href="./assets/css/style.css">
+<style>
+    #load{
+        width:100%;
+        height:100VH;
+        position:fixed;
+        z-index:9999;
+    }
+
+    .load-2 .line:nth-last-child(1) {
+        animation: loadingB 1.5s 1s infinite;
+      }
+      .load-2 .line:nth-last-child(2) {
+        animation: loadingB 1.5s 0.5s infinite;
+      }
+      .load-2 .line:nth-last-child(3) {
+        animation: loadingB 1.5s 0s infinite;
+      }
+
+      .line {
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        background-color: #1b2e85 ;
+      }
+
+      @keyframes loadingB {
+        0 {
+          width: 15px;
+        }
+        50% {
+          width: 35px;
+        }
+        100% {
+          width: 15px;
+        }
+      }
+      
+      }
+      
+      
+</style>
+<script>
+    document.onreadystatechange = function () {
+        var state = document.readyState
+        if (state == 'interactive') {
+             document.getElementById('contents').style.visibility="hidden";
+        } else if (state == 'complete') {
+            setTimeout(function(){
+               document.getElementById('interactive');
+               document.getElementById('load').style.visibility="hidden";
+               document.getElementById('contents').style.visibility="visible";
+            },1000);
+        }
+      }
+</script>
+</head>
+
+<body>
+    <div id="load" class="h-100 animated">
+        <div class="row align-items-center h-100">
+            <div class="col-12 mx-auto text-center">
+
+                    <img class="animate__animated animate__infinite	infinite ldesktop " src="./media/bird.png" alt="" srcset="">
+                    <div class="load-2">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                      </div>
+                
+                  
+       
+            </div>
+        </div>
+    </div>
+
+      <div id="contents">
+
+   
+    <header>
+        <nav class="navigation">
+            <a class="navbar-logo" href="#" ><img id="myLogo" src="./media/logo-png.png" width="300px;"
+                    alt="" srcset=""></a>
+                  <a class="float-right pr-5 text-white" target="_blank" href="contact.html" id="myContact"> | Contact </a>
+                <a class="float-right pr-1 text-white video_desktop" href="#comp1" id="myContact"> Services </a>
+  
+
+        </nav>
+        <video class="Width100 video_desktop" id="interoVideo" playsinline="playsinline" autoplay="autoplay"
+            muted="muted" loop="loop">
+            <source src="./media/desktop/Ground Split_ canvert.mp4" type="video/mp4">
+        </video>
+        <!-- mobile  -->
+        <video class="Width100 video_mobile" id="interoVideo" playsinline="playsinline" autoplay="autoplay"
+            muted="muted" loop="loop">
+            <source src="./media/new_videos/intro Moble.mp4" type="video/mp4">
+        </video>
+        <!-- mobile end  -->
+    </header>
+
+    <div class="myContainer Width100">
+        <!-- <nav id="NavBar2" class="navbar navbar-expand-sm sticky-top">
+            <a class="navbar-brand" href="#"> <a class="navbar-logo mt-2" href="#"><img id="myLogo" style="fill: red"
+                        src="./media/logo-png-b.png" width="300px;" class="img-responsive" alt="" srcset=""></a></a>
+        </nav> -->
+        <!-- <img src="./media/i2.png" class="img-fluid video_desktop" alt="" srcset=""> -->
+        <video class="Width100 video_desktop" id="interoVideo" playsinline="playsinline" autoplay="autoplay"
+            muted="muted" loop="loop">
+            <source src="./media/desktop/sage sparrow.mov" type="video/mp4">
+        </video>
+        <!-- mobile  -->
+        <video class="Width100 video_mobile" id="interoVideo" playsinline="playsinline" autoplay="autoplay"
+            muted="muted" loop="loop">
+            <source src="./media/new_videos/sage mobile.mov" type="video/mp4">
+        </video>
+        <!-- mobile end  -->
+
+
+
+        <video class="Width100 video_desktop" id="comp1" playsinline="playsinline" autoplay="autoplay"
+            muted="muted" loop="loop">
+            <source src="./media/desktop/Comp 1.mp4" type="video/mp4">
+        </video>
+        <!-- mobile  -->
+        <video class="Width100 video_mobile" id="interoVideo" playsinline="playsinline" autoplay="autoplay"
+            muted="muted" loop="loop">
+            <source src="./media/new_videos/Comp 11.mov" type="video/mp4">
+        </video>
+        <!-- mobile end  -->
+
+
+        <video class="Width100 video_desktop" id="interoVideo" playsinline="playsinline" autoplay="autoplay"
+            muted="muted" loop="loop">
+            <source src="./media/desktop/Comp 2.mov" type="video/mp4">
+        </video>
+        <!-- mobile  -->
+        <video class="Width100 video_mobile" id="interoVideo" playsinline="playsinline" autoplay="autoplay"
+            muted="muted" loop="loop">
+            <source src="./media/new_videos/Comp 22.mov" type="video/mp4">
+        </video>
+        <!-- mobile end  -->
+
+
+        <video class="Width100 video_desktop" id="interoVideo" playsinline="playsinline" autoplay="autoplay"
+            muted="muted" loop="loop">
+            <source src="./media/desktop/Comp 5.mov" type="video/mp4">
+        </video>
+        <!-- mobile  -->
+        <video class="Width100 video_mobile" id="interoVideo" playsinline="playsinline" autoplay="autoplay"
+            muted="muted" loop="loop">
+            <source src="./media/new_videos/Comp 33.mov" type="video/mp4">
+        </video>
+        <!-- mobile end  -->
+
+
+        <video class="Width100 video_desktop" id="interoVideo" playsinline="playsinline" autoplay="autoplay"
+            muted="muted" loop="loop">
+            <source src="./media/desktop/Comp 4.mov" type="video/mp4">
+        </video>
+        <!-- mobile  -->
+        <video class="Width100 video_mobile" id="interoVideo" playsinline="playsinline" autoplay="autoplay"
+            muted="muted" loop="loop">
+            <source src="./media/new_videos/Comp 55.mov" type="video/mp4">
+        </video>
+        <!-- mobile end  -->
+
+        <div class="myContainer Width100">
+            <div class="bottom-left Width100 text-danger" style="z-index: 100;">
+                <div class="container-fluid">
+                    <div class="row foo">
+                        <div class="col-md-3 col-12 col-sm-12 fa mt-md-0 mt-2">
+                            Sage Sparrow is powered by <a class="fa" href=""><b>Ajinkya</b></a>
+                        </div>
+                        <div class="col-md-6 col-12 col-sm-12 fa mt-md-0 mt-2">
+                            <p>Copyright <i class="fa fa-copyright" aria-hidden="true"></i> 2020 Sage Sparrow - All rights reserved</p>
+                        </div>
+                        <div id="ficons" class="col-md-3 col-12 col-sm-12 text-md-right text-center mt-md-0 mt-2">
+                            <a class="mx-2" href="https://instagram.com/sagesparrows?igshid=79wxsa45jc5t"
+                                target="_blank"><i class="fa fa-instagram fa-2x " aria-hidden="true"></i></a>
+                            <a class="mx-2 mysicons" href="https://www.facebook.com/Sage-Sparrows-107481330902575"
+                                target="_blank"> <i class="fa fa-facebook  fa-2x " aria-hidden="true"></i></a>
+                            <a class="mx-2 mysicons" href="mailto:Sagesparrowsbiz@gmail.com" target="_blank"><i
+                                    class="fa fa-envelope-o  fa-2x " aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- <img src="./media/i7.png" class="img-fluid video_desktop" alt="" srcset="">
+             -->
+            <video class="Width100 video_desktop" id="interoVideo" playsinline="playsinline" autoplay="autoplay"
+                muted="muted" loop="loop">
+                <source src="./media/desktop/last slide.mov" type="video/mp4">
+            </video>
+            <!-- mobile  -->
+            <video class="Width100 video_mobile" id="interoVideo" playsinline="playsinline" autoplay="autoplay"
+                muted="muted" loop="loop">
+                <source src="./media/new_videos/last slide mobile.mov" type="video/mp4">
+            </video>
+            <!-- mobile end  -->
+        </div>
+
+    </div>
+</div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>

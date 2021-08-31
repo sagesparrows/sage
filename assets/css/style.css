@@ -1,0 +1,141 @@
+  .Width100 {
+    width: 100%;
+  }
+
+  .navigation {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .navbar-right {
+    float: right;
+    padding-right: 10%;
+  }
+
+  .navbar-right a {
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+    font-family: Arial;
+    font-weight: 900;
+  }
+
+  .navbar-right a:hover {
+    text-decoration: underline;
+  }
+
+  .navbar-logo {
+    padding-left: 10%;
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .video-container {
+    z-index: -100;
+    width: 100%;
+    height: 75%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  #video-bg {
+    width: 100%;
+
+  }
+
+  .myContainer {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+
+  .bottom-left {
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+  }
+
+  .mtop {
+    margin-top: 25px;
+  }
+
+  .fa {
+    color: rgba(10, 43, 109, 0.98);
+  }
+
+.ldesktop{
+  width: 15%;
+}
+
+  @media only screen and (min-width: 600px) {
+
+
+    .video_mobile {
+      display: none;
+    }
+  }
+
+
+  .bg-1b2e85 {
+    background-color: #1b2e85 !important;
+
+
+  }
+
+  .wth {
+    font-weight: 600 !important;
+  }
+
+
+
+  @media only screen and (max-width: 600px) {
+    #myLogo {
+      margin-top: 0px;
+      width: 100px;
+    }
+
+    .ldesktop{
+      width: 40%;
+    }
+
+    .mtop {
+      margin-top: 8%;
+    }
+
+    #myContact {
+      font-size: small;
+      padding-top: 12px;
+    }
+
+    .navigation {
+      padding-top: 0px;
+    }
+
+    #NavBar2 {
+      display: none;
+    }
+
+    .foo {
+      font-size: xx-small;
+    }
+
+    .video_desktop {
+      display: none;
+    }
+
+  }
